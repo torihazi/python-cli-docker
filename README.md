@@ -43,5 +43,5 @@ This command builds a Docker image named my-python-app based on the Dockerfile i
 To run the container with a bind mount for development, use:
 
 ```
-docker run -it --rm -v $(pwd):/app -p 5000:5000 my-python-app
+docker run -it --rm -v $(pwd):/app my-python-app bash
 ```

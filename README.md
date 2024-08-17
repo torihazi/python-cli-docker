@@ -26,6 +26,7 @@ In the same directory, create a requirements.txt file listing your Python depend
 ```
 flask==2.0.1
 requests==2.26.0
+markdown
 ```
 
 ## 3 Build the Docker image
